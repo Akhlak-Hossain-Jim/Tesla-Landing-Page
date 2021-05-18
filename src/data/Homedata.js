@@ -1,5 +1,6 @@
 const Homedata = [
   {
+    sTitle: "Model S",
     title: "Model S",
     subTitle: "Order Online for",
     subTitleButton: "Touchless Delivery",
@@ -9,6 +10,7 @@ const Homedata = [
     arrow: "true",
   },
   {
+    sTitle: "Model Y",
     title: "Model Y",
     subTitle: "Order Online for",
     subTitleButton: "Touchless Delivery",
@@ -18,6 +20,7 @@ const Homedata = [
     arrow: "",
   },
   {
+    sTitle: "Model 3",
     title: "Model 3",
     subTitle: "Order Online for",
     subTitleButton: "Touchless Delivery",
@@ -27,6 +30,7 @@ const Homedata = [
     arrow: "",
   },
   {
+    sTitle: "Model X",
     title: "Model X",
     subTitle: "Order Online for",
     subTitleButton: "Touchless Delivery",
@@ -36,6 +40,7 @@ const Homedata = [
     arrow: "",
   },
   {
+    sTitle: "Solar Panel",
     title: "Lowest Cost Solar Panels in America",
     subTitle: "Money-back guarantee",
     subTitleButton: "",
@@ -45,6 +50,7 @@ const Homedata = [
     arrow: "",
   },
   {
+    sTitle: "Solar Roof",
     title: "Solar for New Roofs",
     subTitle: "Solar Roof Costs Less Than a New Roof Plus Solar Panels",
     subTitleButton: "",
@@ -54,6 +60,7 @@ const Homedata = [
     arrow: "",
   },
   {
+    sTitle: "",
     title: "Accessories",
     subTitle: "",
     subTitleButton: "",

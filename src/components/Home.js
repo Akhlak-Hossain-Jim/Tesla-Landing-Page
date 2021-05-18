@@ -23,7 +23,7 @@ function Home() {
 }
 
 const Container = styled.main`
-  height: 100vh;
+  z-index: 1 !important;
 `;
 
 export default Home;

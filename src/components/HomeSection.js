@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
+import Fade from "react-reveal/Fade";
+
 function HomeSection({
   title,
   subTitle,
@@ -12,20 +14,24 @@ function HomeSection({
 }) {
   return (
     <Container bgImage={backgroundImg}>
-      <Title>
-        <h1>{title}</h1>
-        <h2>
-          {subTitle} <a href="jf">{subTitleButton}</a>
-        </h2>
-      </Title>
+      <Fade bottom>
+        <Title>
+          <h1>{title}</h1>
+          <h2>
+            {subTitle} <a href="jf">{subTitleButton}</a>
+          </h2>
+        </Title>
+      </Fade>
       <Buttons>
-        <ButtonWraper>
-          <LeftButton>{LeftButtonText}</LeftButton>
-          {RightButtonText && <RightButton>{RightButtonText}</RightButton>}
-        </ButtonWraper>
-        <DownArrow>
-          {arrow && <img src="/images/down-arrow.svg" alt="" />}
-        </DownArrow>
+        <Fade bottom>
+          <ButtonWraper>
+            <LeftButton>{LeftButtonText}</LeftButton>
+            {RightButtonText && <RightButton>{RightButtonText}</RightButton>}
+          </ButtonWraper>
+          <DownArrow>
+            {arrow && <img src="/images/down-arrow.svg" alt="" />}
+          </DownArrow>
+        </Fade>
       </Buttons>
     </Container>
   );
